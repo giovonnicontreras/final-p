@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-size=1">
+  <title>FitForge — Workouts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <img src="assets/logo.png" class="logo" alt="FitForge logo">
+      <div>
+        <h1>Workouts</h1>
+        <nav class="main-nav">
+          <button class="mobile-toggle" aria-label="menu">☰</button>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="help.html">Help</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Workout slideshow</h2>
+    <div class="carousel" aria-live="polite">
+      <img src="assets/strength.jpg" alt="Strength workout slide" style="display:none;">
+      <img src="assets/cardio.jpg" alt="Cardio workout slide" style="display:none;">
+      <img src="assets/flexibility.jpg" alt="Flexibility workout slide" style="display:none;">
+    </div>
+    <p style="margin-top:12px;">Slides auto-rotate every 3 seconds to highlight different focus areas.</p>
+  </section>
+
+  <section class="grid" style="margin-top:20px;">
+    <article class="card">
+      <h3>Beginner Full-Body</h3>
+      <ol>
+        <li>Bodyweight squats — 3 × 12</li>
+        <li>Push-ups (incline if needed) — 3 × 8–12</li>
+        <li>Glute bridges — 3 × 12</li>
+        <li>Plank — 3 × 30 seconds</li>
+      </ol>
+    </article>
+
+    <article class="card">
+      <h3>Intermediate Strength</h3>
+      <ol>
+        <li>Goblet squats — 4 × 10</li>
+        <li>Dumbbell rows — 4 × 8 each arm</li>
+        <li>Push-ups or bench press — 4 × 8</li>
+        <li>Romanian deadlifts — 3 × 10</li>
+      </ol>
+    </article>
+
+    <article class="card">
+      <h3>Cardio Circuit</h3>
+      <ol>
+        <li>Jump rope — 60 seconds</li>
+        <li>Burpees — 3 × 10</li>
+        <li>High knees — 3 × 30 seconds</li>
+        <li>Mountain climbers — 3 × 20</li>
+      </ol>
+    </article>
+  </section>
+
+  <div class="footer" style="margin-top:20px;">
+    <p>© 2025 Gio Contreras — FitForge</p>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
